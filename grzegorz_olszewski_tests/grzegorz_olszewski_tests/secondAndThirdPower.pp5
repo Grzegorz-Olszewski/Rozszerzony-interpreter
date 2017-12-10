@@ -1,0 +1,1 @@
+fun secondAndThirdPower(n:int):int*int = (n*n,n*n*n) input n in let x = secondAndThirdPower(n) in snd x

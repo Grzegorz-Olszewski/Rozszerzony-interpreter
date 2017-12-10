@@ -1,0 +1,1 @@
+fun power(a:(int*int)*int):int = let b = fst(a) in let n = fst(b) in let k = snd(b) in let acc = snd(a) in if k = 0 then acc else power((n,k-1),acc*n) fun mul3(n:int):int = 3*n fun to5power_mul3(n:int):int = let n = power((n,5),1) in mul3(n) input x in to5power_mul3(x)

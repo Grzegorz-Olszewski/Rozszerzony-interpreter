@@ -1,0 +1,1 @@
+fun addPairs (arg:(int*int)*(int*int)):int*int = let x = fst (arg) in let y = snd (arg) in (((fst (x))+ (fst(y))), ((snd (x))+(snd(y)))) input a b c d in let x = addPairs(((a,b),(c,d))) in fst x

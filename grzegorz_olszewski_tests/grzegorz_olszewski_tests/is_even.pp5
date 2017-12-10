@@ -1,0 +1,1 @@
+fun is_even(n:int):bool = if n div 2 = 0 then true else false input x in if is_even(x) then 1 else 0

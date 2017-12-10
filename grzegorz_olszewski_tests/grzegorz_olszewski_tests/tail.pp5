@@ -1,0 +1,1 @@
+fun tail(l:int list):int list = match l with [] -> [] | x1::x2 -> x2 input a,b,c,d in let x = tail([a,b,c,d]) in match x with [] -> 0 | x1::x2 -> x1

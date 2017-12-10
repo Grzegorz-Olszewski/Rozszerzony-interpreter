@@ -1,0 +1,1 @@
+fun sum(a: (int list)*int):int = let l = fst (a) in let n = snd (a) in match l with [] -> n | x1::x2 -> let x = n + x1 in sum(x2,x) input a b c d e in sum([a,b,c,d,e],0)
